@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Elise Heater</title>
+</head>
+<link rel="stylesheet" href="mystyle.css">
+<header class="header">
+  <h2> Elise Heater <h2>
+</header>
+<div class="aboutButton">
+  <button id="submit1" type="button">About     Me</button>
+</div>
+<div class="projButton">
+  <button id="submit2" type="button">Projects</button>
+</div>
+<body>
+<br>
+  <image src = "https://i.imgur.com/Cvk2sCL.jpeg"class = "center";>
+<div id="aboutSect">
+<h1>About Me</h1>
+</div>
+<p> Hello, my name is Elise! I'm currently a junior at Union College, and I'm from Cleveland, Ohio. I'm studying to be a Computer Science major, with a minor in Mathematics. I have experience in Logic and Algorithms, Object-Oriented programming and Data Structures, and I am currently learning about User Interfaces and CPUs. This webpage will display all projects that I have made so far in this class (User Interfaces). Thus, I will often update it as the term progresses. </p>
+    
+<p> My group will likely focus on something related to either environmental changes or medicine. I worked in a hospital this past summer for an internship, so I am somewhat familiar with the ins and outs of a large hospital. There are many layers, especially concerning engineering, that are invisible to the public eye. </p>
+    
+<div class="projects" id=projSect>
+  <h3> Projects <h3>
+</div>
+ 
+<div class="row">
+  <div class="column">
+    <h1 class="projects">Outfit Picker</h1>
+   <p>For our group project, we decided to create an application that will create an outfit for the user based on the weather. The application will also take brand sustainability into account. Before we landed on that idea, we created some storyboards with our other ideas. My storyboards were about a website/app that provides sustainable brands for any item the user is looking for.</p>
+    <image src=https://i.imgur.com/z2FvZ6P.png; class="storyboard center";>
+<image src=https://i.imgur.com/RnAkOAG.png; class="storyboard center";>
+  <p>We currently only have storyboards, but we are working on our research questions now. After that we can begin prototyping.</p>
+  </div>
+  <div class="column">
+    <h1 class="projects">CPU</h1>
+    <p>In my CSC 270 class, I am learning how to create a CPU in an application that simulates how real circuits act. So far, I've created an arithmetic logic unit which can do simple math on 4 bit numbers. These numbers are stored in registers which connect and can be operated on by the ALU. Recently, we added a control logic unit, which stores the outcome of these operations into RAM. This is also controlled by a program counter, which is a major aspect of the CPU. Below is a screen shot of the complete CPU circuit I have developed so far. </p>
+    <image src="https://i.imgur.com/zfY425T.png"; class="circuitpic center">
+      <p> The instruction word is created from 7 different qualities; Register or Immediate (constant int), Save Word, Load Word, Operation, Destination, Source 1, and Source 2. The destination and sources are all based on register addresses, of which there are 8 total. At first, the instruction word was just one input that had to be changed manually. But now, multiple instructions can be put into the memory, which is incremented with each tick from the clock by the PC. So an entire program can be run based on the instruction codes in memory, and the output will be put into RAM. For example, our assigment was to create a set of instructions that would reverse an array.</p>
+  </div>
+</div>
+<br>
+      
+<footer>
+  <p>Last Updated: February 16th, 2025</p>
+</footer>
+<script src="myscript.js"></script>
+</body>
+</html>
